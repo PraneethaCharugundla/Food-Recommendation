@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: white;
+}
+button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.card {
+  width: 500px;
+  background-color: bisque;
+  color: black;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* background: #000; */
+}
+.items-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  background: black;
+  align-items: center;
+}
+.card-content {
+  padding: 10px;
+}
